@@ -1,0 +1,1182 @@
+
+> my-project@0.1.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 1293ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+Creating turbopack project {
+  dir: 'C:\\Users\\moham\\Downloads\\egypt-tourism-portal',
+  testMode: true
+}
+
+○ Compiling / ...
+ GET / 200 in 5.5s (next.js: 5.1s, application-code: 409ms)
+ GET / 200 in 221ms (next.js: 14ms, application-code: 206ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="ar"
+                          dir="rtl"
+                          className="dark playfair_display_1d53ac1-module__JuXT-q__variable cairo_186ab8e4-module__-1M..."
+-                         style={{color-scheme:"dark"}}
+                        >
+                  ...
+ 
+ GET / 200 in 150ms (next.js: 11ms, application-code: 139ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="ar"
+                          dir="rtl"
+                          className="dark playfair_display_1d53ac1-module__JuXT-q__variable cairo_186ab8e4-module__-1M..."
+-                         style={{color-scheme:"dark"}}
+                        >
+                  ...
+ 
+ GET /trips/desert-safari 200 in 2.1s (next.js: 2.0s, generate-params: 1052ms, application-code: 52ms)
+ GET /trips/desert-safari 200 in 71ms (next.js: 24ms, generate-params: 14ms, application-code: 47ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 29ms (next.js: 6ms, application-code: 24ms)
+✓ Compiled in 140ms
+⚠ Fast Refresh had to perform a full reload when ./components/theme-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./components/theme-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 1114ms (next.js: 436ms, application-code: 677ms)
+ GET / 200 in 583ms (next.js: 359ms, application-code: 224ms)
+ GET / 200 in 209ms (next.js: 42ms, application-code: 168ms)
+ GET / 200 in 776ms (next.js: 294ms, application-code: 482ms)
+ GET / 200 in 209ms (next.js: 99ms, application-code: 110ms)
+ GET / 200 in 1286ms (next.js: 321ms, application-code: 965ms)
+ GET / 200 in 872ms (next.js: 18ms, application-code: 854ms)
+ GET / 200 in 885ms (next.js: 240ms, application-code: 645ms)
+[browser] Image with src "/images/luxor-temple.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "/images/desert-safari.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /trips/historic-cairo 200 in 167ms (next.js: 95ms, generate-params: 12ms, application-code: 72ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 34ms (next.js: 8ms, application-code: 26ms)
+ GET / 200 in 21ms (next.js: 8ms, application-code: 12ms)
+ GET / 200 in 18ms (next.js: 8ms, application-code: 10ms)
+ GET / 200 in 19ms (next.js: 6ms, application-code: 14ms)
+ GET / 200 in 14ms (next.js: 6ms, application-code: 7ms)
+ GET / 200 in 19ms (next.js: 7ms, application-code: 12ms)
+ GET / 200 in 25ms (next.js: 5ms, application-code: 20ms)
+ GET / 200 in 17ms (next.js: 7ms, application-code: 10ms)
+ GET / 200 in 31ms (next.js: 7ms, application-code: 24ms)
+ GET / 200 in 16ms (next.js: 8ms, application-code: 9ms)
+ GET / 200 in 38ms (next.js: 6ms, application-code: 32ms)
+ GET / 200 in 15ms (next.js: 5ms, application-code: 9ms)
+ GET / 200 in 27ms (next.js: 5ms, application-code: 22ms)
+✓ Compiled in 107ms
+ GET / 200 in 390ms (next.js: 91ms, application-code: 299ms)
+ GET / 200 in 390ms (next.js: 148ms, application-code: 243ms)
+ GET / 200 in 194ms (next.js: 6ms, application-code: 188ms)
+ GET / 200 in 165ms (next.js: 8ms, application-code: 157ms)
+ GET / 200 in 130ms (next.js: 34ms, application-code: 95ms)
+ GET / 200 in 132ms (next.js: 8ms, application-code: 124ms)
+ GET / 200 in 75ms (next.js: 6ms, application-code: 68ms)
+ GET / 200 in 75ms (next.js: 34ms, application-code: 41ms)
+✓ Compiled in 93ms
+ GET / 200 in 375ms (next.js: 90ms, application-code: 286ms)
+ GET / 200 in 375ms (next.js: 125ms, application-code: 250ms)
+ GET / 200 in 218ms (next.js: 6ms, application-code: 212ms)
+ GET / 200 in 218ms (next.js: 31ms, application-code: 188ms)
+ GET / 200 in 158ms (next.js: 45ms, application-code: 113ms)
+ GET / 200 in 160ms (next.js: 12ms, application-code: 147ms)
+ GET / 200 in 159ms (next.js: 96ms, application-code: 62ms)
+ GET / 200 in 159ms (next.js: 123ms, application-code: 35ms)
+✓ Compiled in 66ms
+ GET / 200 in 421ms (next.js: 73ms, application-code: 348ms)
+ GET / 200 in 421ms (next.js: 170ms, application-code: 250ms)
+ GET / 200 in 204ms (next.js: 14ms, application-code: 190ms)
+ GET / 200 in 204ms (next.js: 45ms, application-code: 159ms)
+ GET / 200 in 132ms (next.js: 7ms, application-code: 124ms)
+ GET / 200 in 133ms (next.js: 33ms, application-code: 100ms)
+ GET / 200 in 133ms (next.js: 59ms, application-code: 74ms)
+ GET / 200 in 80ms (next.js: 34ms, application-code: 46ms)
+✓ Compiled in 94ms
+ GET / 200 in 433ms (next.js: 162ms, application-code: 271ms)
+ GET / 200 in 433ms (next.js: 207ms, application-code: 225ms)
+ GET / 200 in 197ms (next.js: 8ms, application-code: 189ms)
+ GET / 200 in 197ms (next.js: 47ms, application-code: 150ms)
+ GET / 200 in 124ms (next.js: 9ms, application-code: 115ms)
+ GET / 200 in 124ms (next.js: 38ms, application-code: 86ms)
+ GET / 200 in 123ms (next.js: 90ms, application-code: 33ms)
+ GET / 200 in 125ms (next.js: 64ms, application-code: 61ms)
+✓ Compiled in 129ms
+⨯ ./components/language-provider.tsx:17:8
+Unexpected token `const`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+  [90m15 |[0m
+  [90m16 |[0m [36mexport[0m [36mconst[0m dictionary = {
+[31m[1m>[0m [90m17 |[0m [36mexport[0m [36mconst[0m dictionary = {
+  [90m   |[0m        [31m[1m^^^^^[0m
+  [90m18 |[0m   brandName: { ar: [32m"رحلة"[0m, en: [32m"Rihla"[0m },
+  [90m19 |[0m   brandTagline: { ar: [32m"خبراء السياحة في مصر"[0m, en: [32m"Egypt Travel Curators"[0m },
+  [90m20 |[0m   navHome: { ar: [32m"الرئيسية"[0m, en: [32m"Home"[0m },
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+⨯ ./components/language-provider.tsx:17:8
+Unexpected token `const`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+  [90m15 |[0m
+  [90m16 |[0m [36mexport[0m [36mconst[0m dictionary = {
+[31m[1m>[0m [90m17 |[0m [36mexport[0m [36mconst[0m dictionary = {
+  [90m   |[0m        [31m[1m^^^^^[0m
+  [90m18 |[0m   brandName: { ar: [32m"رحلة"[0m, en: [32m"Rihla"[0m },
+  [90m19 |[0m   brandTagline: { ar: [32m"خبراء السياحة في مصر"[0m, en: [32m"Egypt Travel Curators"[0m },
+  [90m20 |[0m   navHome: { ar: [32m"الرئيسية"[0m, en: [32m"Home"[0m },
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 2.1s (next.js: 1752ms, application-code: 348ms)
+ GET / 500 in 2.1s (next.js: 2.1s, application-code: 22ms)
+⨯ ./components/language-provider.tsx:17:8
+Unexpected token `const`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+  [90m15 |[0m
+  [90m16 |[0m [36mexport[0m [36mconst[0m dictionary = {
+[31m[1m>[0m [90m17 |[0m [36mexport[0m [36mconst[0m dictionary = {
+  [90m   |[0m        [31m[1m^^^^^[0m
+  [90m18 |[0m   brandName: { ar: [32m"رحلة"[0m, en: [32m"Rihla"[0m },
+  [90m19 |[0m   brandTagline: { ar: [32m"خبراء السياحة في مصر"[0m, en: [32m"Egypt Travel Curators"[0m },
+  [90m20 |[0m   navHome: { ar: [32m"الرئيسية"[0m, en: [32m"Home"[0m },
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+⨯ ./components/language-provider.tsx:17:8
+Unexpected token `const`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+  [90m15 |[0m
+  [90m16 |[0m [36mexport[0m [36mconst[0m dictionary = {
+[31m[1m>[0m [90m17 |[0m [36mexport[0m [36mconst[0m dictionary = {
+  [90m   |[0m        [31m[1m^^^^^[0m
+  [90m18 |[0m   brandName: { ar: [32m"رحلة"[0m, en: [32m"Rihla"[0m },
+  [90m19 |[0m   brandTagline: { ar: [32m"خبراء السياحة في مصر"[0m, en: [32m"Egypt Travel Curators"[0m },
+  [90m20 |[0m   navHome: { ar: [32m"الرئيسية"[0m, en: [32m"Home"[0m },
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+[browser] ./components/language-provider.tsx:17:8
+Unexpected token `const`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+  15 |
+  16 | export const dictionary = {
+> 17 | export const dictionary = {
+     |        ^^^^^
+  18 |   brandName: { ar: "رحلة", en: "Rihla" },
+  19 |   brandTagline: { ar: "خبراء السياحة في مصر", en: "Egypt Travel Curators" },
+  20 |   navHome: { ar: "الرئيسية", en: "Home" },
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component] 
+[browser] ./components/language-provider.tsx:17:8
+Unexpected token `const`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+  15 |
+  16 | export const dictionary = {
+> 17 | export const dictionary = {
+     |        ^^^^^
+  18 |   brandName: { ar: "رحلة", en: "Rihla" },
+  19 |   brandTagline: { ar: "خبراء السياحة في مصر", en: "Egypt Travel Curators" },
+  20 |   navHome: { ar: "الرئيسية", en: "Home" },
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component] 
+[browser] ./components/language-provider.tsx:17:8
+Unexpected token `const`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+  15 |
+  16 | export const dictionary = {
+> 17 | export const dictionary = {
+     |        ^^^^^
+  18 |   brandName: { ar: "رحلة", en: "Rihla" },
+  19 |   brandTagline: { ar: "خبراء السياحة في مصر", en: "Egypt Travel Curators" },
+  20 |   navHome: { ar: "الرئيسية", en: "Home" },
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component] 
+ GET / 500 in 95ms (next.js: 55ms, application-code: 40ms)
+ GET / 500 in 92ms (next.js: 73ms, application-code: 19ms)
+[browser] ./components/language-provider.tsx:17:8
+Unexpected token `const`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+  15 |
+  16 | export const dictionary = {
+> 17 | export const dictionary = {
+     |        ^^^^^
+  18 |   brandName: { ar: "رحلة", en: "Rihla" },
+  19 |   brandTagline: { ar: "خبراء السياحة في مصر", en: "Egypt Travel Curators" },
+  20 |   navHome: { ar: "الرئيسية", en: "Home" },
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component] 
+[browser] ./components/language-provider.tsx:17:8
+Unexpected token `const`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+  15 |
+  16 | export const dictionary = {
+> 17 | export const dictionary = {
+     |        ^^^^^
+  18 |   brandName: { ar: "رحلة", en: "Rihla" },
+  19 |   brandTagline: { ar: "خبراء السياحة في مصر", en: "Egypt Travel Curators" },
+  20 |   navHome: { ar: "الرئيسية", en: "Home" },
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component] 
+✓ Compiled in 114ms
+⨯ ./components/language-provider.tsx:122:1
+Expression expected
+  [90m120 |[0m   searchPlaceholder: { ar: [32m"ابحث بالاسم أو المدينة..."[0m, en: [32m"Search by name or destinatio...[0m
+  [90m121 |[0m } [36mas[0m [36mconst[0m
+[31m[1m>[0m [90m122 |[0m } [36mas[0m [36mconst[0m
+  [90m    |[0m [31m[1m^[0m
+  [90m123 |[0m
+  [90m124 |[0m [36mexport[0m [36mfunction[0m [33mLanguageProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+  [90m125 |[0m   [36mconst[0m [lang, setLangState] = useState<[33mLang[0m>([32m"ar"[0m)
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+⨯ ./components/language-provider.tsx:122:1
+Expression expected
+  [90m120 |[0m   searchPlaceholder: { ar: [32m"ابحث بالاسم أو المدينة..."[0m, en: [32m"Search by name or destinatio...[0m
+  [90m121 |[0m } [36mas[0m [36mconst[0m
+[31m[1m>[0m [90m122 |[0m } [36mas[0m [36mconst[0m
+  [90m    |[0m [31m[1m^[0m
+  [90m123 |[0m
+  [90m124 |[0m [36mexport[0m [36mfunction[0m [33mLanguageProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+  [90m125 |[0m   [36mconst[0m [lang, setLangState] = useState<[33mLang[0m>([32m"ar"[0m)
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 76ms (next.js: 39ms, application-code: 37ms)
+ GET / 500 in 78ms (next.js: 59ms, application-code: 19ms)
+⨯ ./components/language-provider.tsx:122:1
+Expression expected
+  [90m120 |[0m   searchPlaceholder: { ar: [32m"ابحث بالاسم أو المدينة..."[0m, en: [32m"Search by name or destinatio...[0m
+  [90m121 |[0m } [36mas[0m [36mconst[0m
+[31m[1m>[0m [90m122 |[0m } [36mas[0m [36mconst[0m
+  [90m    |[0m [31m[1m^[0m
+  [90m123 |[0m
+  [90m124 |[0m [36mexport[0m [36mfunction[0m [33mLanguageProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+  [90m125 |[0m   [36mconst[0m [lang, setLangState] = useState<[33mLang[0m>([32m"ar"[0m)
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+⨯ ./components/language-provider.tsx:122:1
+Expression expected
+  [90m120 |[0m   searchPlaceholder: { ar: [32m"ابحث بالاسم أو المدينة..."[0m, en: [32m"Search by name or destinatio...[0m
+  [90m121 |[0m } [36mas[0m [36mconst[0m
+[31m[1m>[0m [90m122 |[0m } [36mas[0m [36mconst[0m
+  [90m    |[0m [31m[1m^[0m
+  [90m123 |[0m
+  [90m124 |[0m [36mexport[0m [36mfunction[0m [33mLanguageProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+  [90m125 |[0m   [36mconst[0m [lang, setLangState] = useState<[33mLang[0m>([32m"ar"[0m)
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 53ms (next.js: 25ms, application-code: 28ms)
+ GET / 500 in 52ms (next.js: 38ms, application-code: 14ms)
+[browser] ./components/language-provider.tsx:122:1
+Expression expected
+  120 |   searchPlaceholder: { ar: "ابحث بالاسم أو المدينة...", en: "Search by name or destinatio...
+  121 | } as const
+> 122 | } as const
+      | ^
+  123 |
+  124 | export function LanguageProvider({ children }: { children: React.ReactNode }) {
+  125 |   const [lang, setLangState] = useState<Lang>("ar")
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component] 
+[browser] ./components/language-provider.tsx:122:1
+Expression expected
+  120 |   searchPlaceholder: { ar: "ابحث بالاسم أو المدينة...", en: "Search by name or destinatio...
+  121 | } as const
+> 122 | } as const
+      | ^
+  123 |
+  124 | export function LanguageProvider({ children }: { children: React.ReactNode }) {
+  125 |   const [lang, setLangState] = useState<Lang>("ar")
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component] 
+[browser] ./components/language-provider.tsx:122:1
+Expression expected
+  120 |   searchPlaceholder: { ar: "ابحث بالاسم أو المدينة...", en: "Search by name or destinatio...
+  121 | } as const
+> 122 | } as const
+      | ^
+  123 |
+  124 | export function LanguageProvider({ children }: { children: React.ReactNode }) {
+  125 |   const [lang, setLangState] = useState<Lang>("ar")
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component] 
+[browser] ./components/language-provider.tsx:122:1
+Expression expected
+  120 |   searchPlaceholder: { ar: "ابحث بالاسم أو المدينة...", en: "Search by name or destinatio...
+  121 | } as const
+> 122 | } as const
+      | ^
+  123 |
+  124 | export function LanguageProvider({ children }: { children: React.ReactNode }) {
+  125 |   const [lang, setLangState] = useState<Lang>("ar")
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component] 
+[browser] ./components/language-provider.tsx:122:1
+Expression expected
+  120 |   searchPlaceholder: { ar: "ابحث بالاسم أو المدينة...", en: "Search by name or destinatio...
+  121 | } as const
+> 122 | } as const
+      | ^
+  123 |
+  124 | export function LanguageProvider({ children }: { children: React.ReactNode }) {
+  125 |   const [lang, setLangState] = useState<Lang>("ar")
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./components/language-provider.tsx
+    ./app/layout.tsx
+
+  Client Component Browser:
+    ./components/language-provider.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Client Component Browser]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/language-provider.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Client Component SSR]
+    ./components/site-footer.tsx [Server Component]
+    ./app/page.tsx [Server Component] 
+⚠ Fast Refresh had to perform a full reload when ./components/language-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./components/language-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 100ms (next.js: 40ms, application-code: 60ms)
+ GET / 200 in 97ms (next.js: 69ms, application-code: 28ms)
+ GET / 200 in 818ms (next.js: 87ms, application-code: 731ms)
+ GET / 200 in 1124ms (next.js: 203ms, application-code: 921ms)
+ GET / 200 in 253ms (next.js: 79ms, application-code: 174ms)
+ GET / 200 in 1122ms (next.js: 262ms, application-code: 860ms)
+ GET / 200 in 857ms (next.js: 11ms, application-code: 846ms)
+ GET / 200 in 858ms (next.js: 51ms, application-code: 808ms)
+✓ Compiled in 111ms
+[browser] Image with src "/images/luxor-temple.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET / 200 in 105ms (next.js: 7ms, application-code: 98ms)
+✓ Compiled in 158ms
+ GET / 200 in 19ms (next.js: 9ms, application-code: 10ms)
+ GET / 200 in 28ms (next.js: 5ms, application-code: 24ms)
+ GET / 200 in 24ms (next.js: 7ms, application-code: 17ms)
+ GET / 200 in 30ms (next.js: 7ms, application-code: 23ms)
+ GET / 200 in 14ms (next.js: 6ms, application-code: 8ms)
+ GET / 200 in 15ms (next.js: 5ms, application-code: 10ms)
+ GET / 200 in 17ms (next.js: 7ms, application-code: 9ms)
+✓ Compiled in 108ms
+ GET / 200 in 19ms (next.js: 6ms, application-code: 13ms)
+ GET / 200 in 16ms (next.js: 5ms, application-code: 11ms)
+✓ Compiled in 135ms
+ GET / 200 in 270ms (next.js: 94ms, application-code: 175ms)
+ GET / 200 in 87ms (next.js: 15ms, application-code: 72ms)
+ GET / 200 in 107ms (next.js: 49ms, application-code: 58ms)
+ GET / 200 in 33ms (next.js: 9ms, application-code: 24ms)
+ GET / 200 in 475ms (next.js: 176ms, application-code: 299ms)
+ GET / 200 in 271ms (next.js: 55ms, application-code: 216ms)
+ GET / 200 in 271ms (next.js: 89ms, application-code: 183ms)
+ GET / 200 in 157ms (next.js: 10ms, application-code: 147ms)
+ GET / 200 in 157ms (next.js: 86ms, application-code: 71ms)
+ GET / 200 in 40ms (next.js: 6ms, application-code: 33ms)
+✓ Compiled in 73ms
+ GET / 200 in 209ms (next.js: 69ms, application-code: 140ms)
+ GET / 200 in 208ms (next.js: 105ms, application-code: 103ms)
+ GET / 200 in 66ms (next.js: 37ms, application-code: 29ms)
+ GET / 200 in 68ms (next.js: 8ms, application-code: 60ms)
+✓ Compiled in 172ms
+ GET / 200 in 418ms (next.js: 82ms, application-code: 335ms)
+ GET / 200 in 486ms (next.js: 183ms, application-code: 303ms)
+ GET / 200 in 333ms (next.js: 7ms, application-code: 327ms)
+ GET / 200 in 335ms (next.js: 32ms, application-code: 303ms)
+ GET / 200 in 385ms (next.js: 10ms, application-code: 375ms)
+ GET / 200 in 385ms (next.js: 59ms, application-code: 326ms)
+ GET / 200 in 387ms (next.js: 33ms, application-code: 354ms)
+ GET / 200 in 387ms (next.js: 88ms, application-code: 299ms)
+ GET / 200 in 413ms (next.js: 159ms, application-code: 254ms)
+ GET / 200 in 414ms (next.js: 123ms, application-code: 291ms)
+ GET / 200 in 233ms (next.js: 15ms, application-code: 218ms)
+ GET / 200 in 231ms (next.js: 63ms, application-code: 168ms)
+ GET / 200 in 230ms (next.js: 100ms, application-code: 130ms)
+ GET / 200 in 183ms (next.js: 83ms, application-code: 100ms)
+ GET / 200 in 73ms (next.js: 11ms, application-code: 61ms)
+ GET / 200 in 73ms (next.js: 39ms, application-code: 34ms)
+ GET / 200 in 540ms (next.js: 169ms, application-code: 371ms)
+ GET / 200 in 523ms (next.js: 190ms, application-code: 333ms)
+ GET / 200 in 319ms (next.js: 7ms, application-code: 312ms)
+ GET / 200 in 366ms (next.js: 32ms, application-code: 334ms)
+ GET / 200 in 352ms (next.js: 12ms, application-code: 340ms)
+ GET / 200 in 352ms (next.js: 37ms, application-code: 315ms)
+ GET / 200 in 353ms (next.js: 61ms, application-code: 292ms)
+ GET / 200 in 388ms (next.js: 109ms, application-code: 279ms)
+ GET / 200 in 388ms (next.js: 137ms, application-code: 251ms)
+ GET / 200 in 388ms (next.js: 200ms, application-code: 188ms)
+ GET / 200 in 392ms (next.js: 86ms, application-code: 306ms)
+ GET / 200 in 390ms (next.js: 169ms, application-code: 221ms)
+ GET / 200 in 315ms (next.js: 12ms, application-code: 303ms)
+ GET / 200 in 315ms (next.js: 58ms, application-code: 257ms)
+ GET / 200 in 224ms (next.js: 14ms, application-code: 210ms)
+ GET / 200 in 186ms (next.js: 13ms, application-code: 173ms)
+ GET / 200 in 149ms (next.js: 15ms, application-code: 134ms)
+ GET / 200 in 149ms (next.js: 44ms, application-code: 105ms)
+ GET / 200 in 147ms (next.js: 73ms, application-code: 74ms)
+ GET / 200 in 82ms (next.js: 35ms, application-code: 47ms)
+ GET / 200 in 454ms (next.js: 124ms, application-code: 330ms)
+ GET / 200 in 465ms (next.js: 98ms, application-code: 367ms)
+ GET / 200 in 314ms (next.js: 6ms, application-code: 309ms)
+ GET / 200 in 370ms (next.js: 33ms, application-code: 337ms)
+ GET / 200 in 316ms (next.js: 10ms, application-code: 306ms)
+ GET / 200 in 316ms (next.js: 34ms, application-code: 281ms)
+ GET / 200 in 316ms (next.js: 61ms, application-code: 255ms)
+ GET / 200 in 350ms (next.js: 89ms, application-code: 261ms)
+ GET / 200 in 351ms (next.js: 117ms, application-code: 233ms)
+ GET / 200 in 351ms (next.js: 173ms, application-code: 178ms)
+ GET / 200 in 352ms (next.js: 148ms, application-code: 205ms)
+ GET / 200 in 309ms (next.js: 128ms, application-code: 180ms)
+ GET / 200 in 414ms (next.js: 9ms, application-code: 405ms)
+ GET / 200 in 414ms (next.js: 36ms, application-code: 378ms)
+ GET / 200 in 358ms (next.js: 15ms, application-code: 343ms)
+ GET / 200 in 354ms (next.js: 44ms, application-code: 311ms)
+ GET / 200 in 281ms (next.js: 12ms, application-code: 268ms)
+ GET / 200 in 281ms (next.js: 39ms, application-code: 242ms)
+ GET / 200 in 281ms (next.js: 71ms, application-code: 211ms)
+ GET / 200 in 279ms (next.js: 102ms, application-code: 178ms)
+ GET / 200 in 279ms (next.js: 160ms, application-code: 119ms)
+ GET / 200 in 280ms (next.js: 130ms, application-code: 151ms)
+ GET / 200 in 280ms (next.js: 190ms, application-code: 90ms)
+ GET / 200 in 50ms (next.js: 9ms, application-code: 41ms)
+✓ Compiled in 300ms
+ GET / 200 in 823ms (next.js: 293ms, application-code: 530ms)
+ GET / 200 in 140ms (next.js: 89ms, application-code: 52ms)
+ GET / 200 in 249ms (next.js: 8ms, application-code: 242ms)
+ GET /trips 200 in 784ms (next.js: 761ms, application-code: 23ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /hotels 200 in 744ms (next.js: 719ms, application-code: 25ms)
+ GET /hotels 200 in 100ms (next.js: 8ms, application-code: 93ms)
+ GET /hotels/sharm-el-sheikh-cliff-resort 200 in 1358ms (next.js: 1315ms, generate-params: 591ms, application-code: 44ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 42ms (next.js: 9ms, application-code: 33ms)
+ GET /trips/luxor-aswan-pharaonic 200 in 123ms (next.js: 80ms, generate-params: 14ms, application-code: 43ms)
+ GET /trips 200 in 27ms (next.js: 6ms, application-code: 22ms)
+ GET /trips 200 in 76ms (next.js: 7ms, application-code: 69ms)
+ GET / 200 in 167ms (next.js: 56ms, application-code: 111ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 104ms (next.js: 8ms, application-code: 96ms)
+ GET /hotels 200 in 114ms (next.js: 17ms, application-code: 97ms)
+ GET / 200 in 131ms (next.js: 34ms, application-code: 98ms)
+ GET /trips/religious-holy-family 200 in 887ms (next.js: 289ms, generate-params: 185ms, application-code: 598ms)
+ GET / 200 in 128ms (next.js: 19ms, application-code: 110ms)
+ GET /trips/luxor-aswan-pharaonic 200 in 71ms (next.js: 24ms, generate-params: 16ms, application-code: 46ms)
+ GET / 200 in 34ms (next.js: 8ms, application-code: 26ms)
+✓ Compiled in 101ms
+ GET / 200 in 342ms (next.js: 121ms, application-code: 221ms)
+ GET / 200 in 54ms (next.js: 8ms, application-code: 46ms)
+✓ Compiled in 78ms
+ GET / 200 in 173ms (next.js: 85ms, application-code: 88ms)
+ GET / 200 in 173ms (next.js: 142ms, application-code: 31ms)
+ GET /trips 200 in 94ms (next.js: 66ms, application-code: 28ms)
+ GET /hotels 200 in 85ms (next.js: 61ms, application-code: 24ms)
+ GET / 200 in 31ms (next.js: 6ms, application-code: 26ms)
+ GET /trips 200 in 29ms (next.js: 6ms, application-code: 23ms)
+ GET / 200 in 40ms (next.js: 8ms, application-code: 33ms)
+✓ Compiled in 269ms
+ GET / 200 in 730ms (next.js: 279ms, application-code: 452ms)
+ GET / 200 in 735ms (next.js: 201ms, application-code: 533ms)
+ GET / 200 in 352ms (next.js: 9ms, application-code: 343ms)
+ GET / 200 in 352ms (next.js: 60ms, application-code: 292ms)
+ GET / 200 in 243ms (next.js: 12ms, application-code: 230ms)
+ GET / 200 in 243ms (next.js: 44ms, application-code: 198ms)
+ GET / 200 in 243ms (next.js: 85ms, application-code: 158ms)
+ GET / 200 in 244ms (next.js: 110ms, application-code: 135ms)
+ GET / 200 in 245ms (next.js: 134ms, application-code: 112ms)
+ GET / 200 in 246ms (next.js: 168ms, application-code: 78ms)
+ GET / 200 in 254ms (next.js: 9ms, application-code: 245ms)
+ GET /trips 200 in 45ms (next.js: 16ms, application-code: 28ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+✓ Compiled in 206ms
+ GET / 200 in 477ms (next.js: 231ms, application-code: 246ms)
+ GET / 200 in 479ms (next.js: 90ms, application-code: 390ms)
+ GET / 200 in 191ms (next.js: 12ms, application-code: 179ms)
+ GET / 200 in 192ms (next.js: 41ms, application-code: 151ms)
+ GET / 200 in 120ms (next.js: 14ms, application-code: 106ms)
+ GET / 200 in 119ms (next.js: 52ms, application-code: 67ms)
+ GET /trips/desert-safari 200 in 86ms (next.js: 43ms, generate-params: 18ms, application-code: 43ms)
+ GET /trips/desert-safari 200 in 270ms (next.js: 22ms, generate-params: 13ms, application-code: 248ms)
+ GET / 200 in 32ms (next.js: 8ms, application-code: 24ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /trips 200 in 38ms (next.js: 14ms, application-code: 24ms)
+ GET / 200 in 30ms (next.js: 7ms, application-code: 24ms)
+ GET /hotels 200 in 42ms (next.js: 16ms, application-code: 26ms)
+ GET /hotels/sharm-el-sheikh-cliff-resort 200 in 68ms (next.js: 35ms, generate-params: 13ms, application-code: 32ms)
+ GET / 200 in 29ms (next.js: 7ms, application-code: 22ms)
+ GET /trips/historic-cairo 200 in 51ms (next.js: 19ms, generate-params: 13ms, application-code: 32ms)
+ GET /trips 200 in 31ms (next.js: 8ms, application-code: 23ms)
+ GET /hotels 200 in 51ms (next.js: 13ms, application-code: 39ms)
+✓ Compiled in 82ms
+ GET /hotels 200 in 373ms (next.js: 85ms, application-code: 288ms)
+ GET / 200 in 373ms (next.js: 222ms, application-code: 151ms)
+ GET /hotels 200 in 112ms (next.js: 6ms, application-code: 106ms)
+ GET / 200 in 40ms (next.js: 12ms, application-code: 28ms)
+ GET /hotels/winter-palace-luxor 200 in 113ms (next.js: 73ms, generate-params: 12ms, application-code: 39ms)
+ GET /hotels 200 in 27ms (next.js: 6ms, application-code: 21ms)
+ GET / 200 in 27ms (next.js: 5ms, application-code: 22ms)
+ GET / 200 in 352ms (next.js: 13ms, application-code: 339ms)
+[browser] Image with src "/images/desert-safari.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET / 200 in 128ms (next.js: 9ms, application-code: 119ms)
+[browser] Image with src "/images/luxor-temple.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET / 200 in 165ms (next.js: 12ms, application-code: 153ms)
+ GET /hotels 200 in 30ms (next.js: 6ms, application-code: 24ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /hotels 200 in 140ms (next.js: 7ms, application-code: 133ms)
+[browser] Image with src "/images/cairo-pyramid-hotel.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET / 200 in 29ms (next.js: 5ms, application-code: 24ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 115ms (next.js: 8ms, application-code: 107ms)
+ GET / 200 in 110ms (next.js: 9ms, application-code: 100ms)
+ GET / 200 in 580ms (next.js: 99ms, application-code: 481ms)
+ GET / 200 in 579ms (next.js: 144ms, application-code: 435ms)
+ GET / 200 in 411ms (next.js: 9ms, application-code: 401ms)
+ GET / 200 in 411ms (next.js: 46ms, application-code: 365ms)
+ GET / 200 in 332ms (next.js: 16ms, application-code: 316ms)
+ GET / 200 in 332ms (next.js: 97ms, application-code: 236ms)
+ GET / 200 in 332ms (next.js: 126ms, application-code: 206ms)
+ GET / 200 in 332ms (next.js: 177ms, application-code: 155ms)
+ GET / 200 in 333ms (next.js: 150ms, application-code: 183ms)
+ GET / 200 in 332ms (next.js: 234ms, application-code: 98ms)
+ GET / 200 in 333ms (next.js: 274ms, application-code: 59ms)
+ GET / 200 in 335ms (next.js: 204ms, application-code: 131ms)
+ GET / 200 in 409ms (next.js: 9ms, application-code: 400ms)
+ GET /hotels 200 in 38ms (next.js: 16ms, application-code: 23ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /trips 200 in 50ms (next.js: 15ms, application-code: 35ms)
+ GET / 200 in 27ms (next.js: 6ms, application-code: 21ms)
+ GET / 200 in 134ms (next.js: 7ms, application-code: 127ms)
+[browser] Image with src "/images/cairo-pyramid-hotel.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+✓ Compiled in 65ms
+ GET / 200 in 306ms (next.js: 114ms, application-code: 192ms)
+ GET / 200 in 308ms (next.js: 62ms, application-code: 246ms)
+ GET / 200 in 169ms (next.js: 12ms, application-code: 157ms)
+ GET / 200 in 127ms (next.js: 11ms, application-code: 116ms)
+ GET / 200 in 73ms (next.js: 7ms, application-code: 66ms)
+ GET / 200 in 42ms (next.js: 8ms, application-code: 34ms)
+ GET / 200 in 247ms (next.js: 7ms, application-code: 240ms)
+ GET / 200 in 173ms (next.js: 8ms, application-code: 166ms)
+[browser] Image with src "/images/luxor-temple.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "/images/cairo-historic.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /hotels 200 in 79ms (next.js: 55ms, application-code: 24ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+✓ Compiled in 121ms
+ GET /hotels 200 in 502ms (next.js: 87ms, application-code: 415ms)
+ GET / 200 in 502ms (next.js: 215ms, application-code: 286ms)
+ GET /hotels 200 in 242ms (next.js: 8ms, application-code: 234ms)
+ GET / 200 in 195ms (next.js: 22ms, application-code: 173ms)
+ GET /hotels 200 in 129ms (next.js: 12ms, application-code: 116ms)
+ GET / 200 in 79ms (next.js: 14ms, application-code: 66ms)
+ GET / 200 in 28ms (next.js: 6ms, application-code: 22ms)
+ GET /trips 200 in 94ms (next.js: 60ms, application-code: 34ms)
+ GET /hotels 200 in 67ms (next.js: 10ms, application-code: 57ms)
+ GET / 200 in 29ms (next.js: 7ms, application-code: 22ms)
+⚠ Fast Refresh had to perform a full reload when ./components/language-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./components/language-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+✓ Compiled in 95ms
+ GET / 200 in 714ms (next.js: 124ms, application-code: 590ms)
+ GET / 200 in 723ms (next.js: 82ms, application-code: 640ms)
+ GET / 200 in 561ms (next.js: 11ms, application-code: 550ms)
+ GET / 200 in 561ms (next.js: 408ms, application-code: 153ms)
+[browser] Image with src "/images/luxor-temple.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+✓ Compiled in 307ms
+ GET / 200 in 608ms (next.js: 75ms, application-code: 533ms)
+ GET / 200 in 610ms (next.js: 126ms, application-code: 484ms)
+ GET / 200 in 487ms (next.js: 7ms, application-code: 481ms)
+ GET / 200 in 666ms (next.js: 14ms, application-code: 652ms)
+ GET / 200 in 623ms (next.js: 16ms, application-code: 607ms)
+ GET / 200 in 623ms (next.js: 54ms, application-code: 570ms)
+ GET / 200 in 624ms (next.js: 102ms, application-code: 521ms)
+ GET / 200 in 624ms (next.js: 141ms, application-code: 483ms)
+ GET / 200 in 508ms (next.js: 9ms, application-code: 498ms)
+ GET / 200 in 508ms (next.js: 53ms, application-code: 455ms)
+ GET / 200 in 512ms (next.js: 149ms, application-code: 363ms)
+ GET / 200 in 513ms (next.js: 103ms, application-code: 411ms)
+ GET / 200 in 765ms (next.js: 30ms, application-code: 736ms)
+ GET / 200 in 764ms (next.js: 186ms, application-code: 578ms)
+ GET / 200 in 649ms (next.js: 14ms, application-code: 636ms)
+ GET / 200 in 605ms (next.js: 19ms, application-code: 586ms)
+ GET / 200 in 599ms (next.js: 50ms, application-code: 549ms)
+ GET / 200 in 599ms (next.js: 88ms, application-code: 512ms)
+ GET / 200 in 599ms (next.js: 121ms, application-code: 478ms)
+ GET / 200 in 600ms (next.js: 150ms, application-code: 451ms)
+ GET / 200 in 469ms (next.js: 10ms, application-code: 459ms)
+ GET / 200 in 470ms (next.js: 116ms, application-code: 355ms)
+ GET / 200 in 472ms (next.js: 194ms, application-code: 278ms)
+ GET / 200 in 475ms (next.js: 249ms, application-code: 226ms)
+ GET / 200 in 292ms (next.js: 28ms, application-code: 264ms)
+ GET / 200 in 292ms (next.js: 75ms, application-code: 217ms)
+ GET / 200 in 184ms (next.js: 17ms, application-code: 168ms)
+ GET / 200 in 126ms (next.js: 18ms, application-code: 108ms)
+ GET / 200 in 126ms (next.js: 53ms, application-code: 73ms)
+ GET / 200 in 38ms (next.js: 7ms, application-code: 31ms)
+ GET / 200 in 276ms (next.js: 11ms, application-code: 265ms)
+✓ Compiled in 206ms
+ GET / 200 in 220ms (next.js: 156ms, application-code: 64ms)
+ GET / 200 in 224ms (next.js: 82ms, application-code: 142ms)
+ GET / 200 in 252ms (next.js: 11ms, application-code: 241ms)
+ GET / 200 in 120ms (next.js: 8ms, application-code: 111ms)
+ GET / 200 in 157ms (next.js: 10ms, application-code: 147ms)
+ GET / 200 in 141ms (next.js: 8ms, application-code: 133ms)
+✓ Compiled in 182ms
+ GET / 200 in 688ms (next.js: 187ms, application-code: 500ms)
+ GET / 200 in 264ms (next.js: 115ms, application-code: 149ms)
+ GET / 200 in 236ms (next.js: 6ms, application-code: 230ms)
+[browser] Image with src "/images/luxor-temple.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+✓ Compiled in 115ms
+ GET / 200 in 287ms (next.js: 69ms, application-code: 219ms)
+ GET / 200 in 81ms (next.js: 16ms, application-code: 65ms)
+ GET / 200 in 239ms (next.js: 8ms, application-code: 231ms)
+ GET / 200 in 130ms (next.js: 9ms, application-code: 121ms)
+ GET /trips 200 in 89ms (next.js: 63ms, application-code: 25ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+✓ Compiled in 72ms
+ GET /trips 200 in 514ms (next.js: 76ms, application-code: 438ms)
+ GET / 200 in 514ms (next.js: 170ms, application-code: 344ms)
+ GET / 200 in 514ms (next.js: 222ms, application-code: 292ms)
+ GET /trips 200 in 306ms (next.js: 14ms, application-code: 291ms)
+ GET / 200 in 306ms (next.js: 48ms, application-code: 258ms)
+ GET / 200 in 236ms (next.js: 10ms, application-code: 227ms)
+ GET / 200 in 206ms (next.js: 37ms, application-code: 169ms)
+ GET /trips 200 in 208ms (next.js: 9ms, application-code: 199ms)
+ GET / 200 in 143ms (next.js: 12ms, application-code: 131ms)
+✓ Compiled in 116ms
+ GET /trips 200 in 539ms (next.js: 58ms, application-code: 481ms)
+ GET / 200 in 538ms (next.js: 188ms, application-code: 350ms)
+ GET / 200 in 538ms (next.js: 223ms, application-code: 315ms)
+ GET /trips 200 in 287ms (next.js: 7ms, application-code: 280ms)
+ GET / 200 in 260ms (next.js: 7ms, application-code: 253ms)
+ GET / 200 in 261ms (next.js: 34ms, application-code: 226ms)
+ GET /trips 200 in 196ms (next.js: 14ms, application-code: 182ms)
+ GET / 200 in 144ms (next.js: 64ms, application-code: 80ms)
+ GET / 200 in 144ms (next.js: 95ms, application-code: 49ms)
+ GET / 200 in 222ms (next.js: 7ms, application-code: 215ms)
+ GET /trips 200 in 31ms (next.js: 9ms, application-code: 22ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /hotels 200 in 85ms (next.js: 62ms, application-code: 23ms)
+ GET / 200 in 26ms (next.js: 6ms, application-code: 20ms)
+ GET /hotels 200 in 31ms (next.js: 8ms, application-code: 23ms)
+ GET /hotels/winter-palace-luxor 200 in 128ms (next.js: 89ms, generate-params: 17ms, application-code: 39ms)
+✓ Compiled in 1053ms
+ GET / 200 in 321ms (next.js: 236ms, application-code: 86ms)
+ GET /trips 200 in 1308ms (next.js: 186ms, application-code: 1122ms)
+ GET /trips 200 in 334ms (next.js: 176ms, application-code: 159ms)
+ GET / 200 in 1517ms (next.js: 175ms, application-code: 1341ms)
+ GET / 200 in 2.2s (next.js: 378ms, application-code: 1812ms)
+ GET /hotels/winter-palace-luxor 200 in 64ms (next.js: 28ms, generate-params: 100µs, application-code: 36ms)
+ GET /hotels/winter-palace-luxor 200 in 733ms (next.js: 107ms, generate-params: 15ms, application-code: 626ms)
+ GET / 200 in 754ms (next.js: 278ms, application-code: 475ms)
+ GET /trips 200 in 1504ms (next.js: 94ms, application-code: 1410ms)
+ GET / 200 in 1511ms (next.js: 139ms, application-code: 1372ms)
+ GET /hotels/winter-palace-luxor 200 in 472ms (next.js: 21ms, generate-params: 32µs, application-code: 452ms)
+[browser] Image with src "/images/luxor-temple.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /hotels/winter-palace-luxor 200 in 167ms (next.js: 23ms, generate-params: 14ms, application-code: 144ms)
+[browser] Image with src "/images/cairo-pyramid-hotel.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /hotels/winter-palace-luxor 200 in 141ms (next.js: 23ms, generate-params: 13ms, application-code: 118ms)
+[browser] Image with src "/images/luxor-nile-resort.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET / 200 in 29ms (next.js: 7ms, application-code: 22ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /hotels/old-cataract-aswan 200 in 47ms (next.js: 19ms, generate-params: 12ms, application-code: 27ms)
+ GET /hotels 200 in 106ms (next.js: 64ms, application-code: 42ms)
+ GET / 200 in 33ms (next.js: 8ms, application-code: 25ms)
+ GET / 200 in 124ms (next.js: 7ms, application-code: 117ms)
+ GET / 200 in 15ms (next.js: 5ms, application-code: 9ms)
+ GET / 200 in 17ms (next.js: 6ms, application-code: 11ms)
+ GET / 200 in 20ms (next.js: 11ms, application-code: 9ms)
+ GET / 200 in 17ms (next.js: 7ms, application-code: 10ms)
+ GET / 200 in 17ms (next.js: 6ms, application-code: 11ms)
+ GET / 200 in 15ms (next.js: 5ms, application-code: 10ms)
+ GET /trips 200 in 30ms (next.js: 5ms, application-code: 24ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /trips/desert-safari 200 in 148ms (next.js: 97ms, generate-params: 14ms, application-code: 52ms)
+ GET / 200 in 36ms (next.js: 6ms, application-code: 29ms)
+⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 750ms
+Creating turbopack project {
+  dir: 'C:\\Users\\moham\\Downloads\\egypt-tourism-portal',
+  testMode: true
+}
+
+⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 565ms
+Creating turbopack project {
+  dir: 'C:\\Users\\moham\\Downloads\\egypt-tourism-portal',
+  testMode: true
+}
+
+ GET /trips 200 in 1826ms (next.js: 770ms, application-code: 1056ms)
+ GET / 200 in 1846ms (next.js: 1164ms, application-code: 683ms)
+ GET / 200 in 1634ms (next.js: 966ms, application-code: 669ms)
+[browser] Image with src "/images/luxor-temple.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 584ms
+Creating turbopack project {
+  dir: 'C:\\Users\\moham\\Downloads\\egypt-tourism-portal',
+  testMode: true
+}
+
+ GET /images/religious-tour.png 404 in 1305ms (next.js: 808ms, application-code: 497ms)
+ GET /images/cairo-historic.png 404 in 1327ms (next.js: 1216ms, application-code: 111ms)
+ GET /images/desert-safari.png 404 in 1319ms (next.js: 998ms, application-code: 322ms)
+ GET /images/luxor-temple.png 404 in 1330ms (next.js: 973ms, application-code: 357ms)
+ GET /images/red-sea-diving.png 404 in 1326ms (next.js: 936ms, application-code: 390ms)
+ GET /images/nile-cruise.png 404 in 1450ms (next.js: 1026ms, application-code: 424ms)
+ GET /images/hurghada-sea-resort.png 404 in 188ms (next.js: 19ms, application-code: 169ms)
+ GET /images/luxor-nile-resort.png 404 in 180ms (next.js: 62ms, application-code: 118ms)
+ GET /images/cairo-pyramid-hotel.png 404 in 180ms (next.js: 88ms, application-code: 92ms)
+⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 483ms
+Creating turbopack project {
+  dir: 'C:\\Users\\moham\\Downloads\\egypt-tourism-portal',
+  testMode: true
+}
+
+ GET /images/desert-safari.png 404 in 774ms (next.js: 436ms, application-code: 338ms)
+ GET /images/cairo-historic.png 404 in 781ms (next.js: 409ms, application-code: 372ms)
+ GET /images/red-sea-diving.png 404 in 777ms (next.js: 373ms, application-code: 404ms)
+ GET /images/luxor-temple.png 404 in 796ms (next.js: 297ms, application-code: 499ms)
+ GET /images/religious-tour.png 404 in 776ms (next.js: 622ms, application-code: 154ms)
+ GET /images/nile-cruise.png 404 in 775ms (next.js: 648ms, application-code: 127ms)
+ GET /trips 404 in 57ms (next.js: 10ms, application-code: 47ms)
+ GET /trips 404 in 187ms (next.js: 60ms, application-code: 127ms)
+ GET /trips 404 in 255ms (next.js: 19ms, application-code: 236ms)
+ GET /trips 404 in 197ms (next.js: 89ms, application-code: 108ms)
+ GET /trips 404 in 198ms (next.js: 120ms, application-code: 78ms)
+ GET /trips 404 in 197ms (next.js: 151ms, application-code: 46ms)
+ GET /trips 404 in 247ms (next.js: 54ms, application-code: 194ms)
+ GET /trips 404 in 282ms (next.js: 17ms, application-code: 265ms)
+ GET /trips 404 in 63ms (next.js: 18ms, application-code: 46ms)
+ GET /trips 404 in 225ms (next.js: 136ms, application-code: 90ms)
+ GET /trips 404 in 228ms (next.js: 104ms, application-code: 123ms)
+ GET /trips 404 in 379ms (next.js: 54ms, application-code: 324ms)
+ GET /trips 404 in 302ms (next.js: 64ms, application-code: 238ms)
+ GET /trips 404 in 318ms (next.js: 51ms, application-code: 268ms)
+ GET /trips 404 in 244ms (next.js: 14ms, application-code: 230ms)
+ GET /trips 404 in 184ms (next.js: 86ms, application-code: 98ms)
+ GET /trips 404 in 184ms (next.js: 110ms, application-code: 74ms)
+ GET /trips 404 in 184ms (next.js: 144ms, application-code: 40ms)
+ GET /trips 404 in 241ms (next.js: 61ms, application-code: 180ms)
+ GET / 404 in 107ms (next.js: 13ms, application-code: 94ms)
+ GET / 404 in 57ms (next.js: 11ms, application-code: 46ms)
+✓ Compiled in 174ms
+⚠ Fast Refresh had to perform a full reload when ./components/language-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /trips 404 in 367ms (next.js: 247ms, application-code: 121ms)
+⚠ Fast Refresh had to perform a full reload when ./components/language-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /trips 404 in 549ms (next.js: 148ms, application-code: 401ms)
+ GET / 404 in 150ms (next.js: 67ms, application-code: 83ms)
+ GET /trips 404 in 246ms (next.js: 101ms, application-code: 145ms)
+ GET / 404 in 160ms (next.js: 100ms, application-code: 61ms)
+ GET / 404 in 511ms (next.js: 65ms, application-code: 446ms)
+ GET /trips 404 in 509ms (next.js: 103ms, application-code: 406ms)
+ GET / 404 in 384ms (next.js: 17ms, application-code: 367ms)
+ GET /trips 404 in 384ms (next.js: 51ms, application-code: 333ms)
+ GET / 404 in 310ms (next.js: 93ms, application-code: 216ms)
+ GET / 404 in 309ms (next.js: 122ms, application-code: 188ms)
+ GET / 404 in 309ms (next.js: 150ms, application-code: 159ms)
+ GET /trips 404 in 270ms (next.js: 154ms, application-code: 116ms)
+ GET /trips 404 in 270ms (next.js: 198ms, application-code: 73ms)
+ GET /trips 404 in 270ms (next.js: 222ms, application-code: 48ms)
+ GET /trips 404 in 388ms (next.js: 80ms, application-code: 307ms)
+✓ Compiled in 170ms
+ GET /trips 404 in 453ms (next.js: 22ms, application-code: 431ms)
+ GET /trips 404 in 353ms (next.js: 59ms, application-code: 294ms)
+ GET /trips 404 in 785ms (next.js: 195ms, application-code: 591ms)
+ GET /trips 404 in 353ms (next.js: 83ms, application-code: 270ms)
+ GET / 404 in 843ms (next.js: 257ms, application-code: 586ms)
+ GET / 404 in 867ms (next.js: 71ms, application-code: 796ms)
+ GET / 404 in 736ms (next.js: 82ms, application-code: 654ms)
+ GET / 404 in 736ms (next.js: 108ms, application-code: 628ms)
+ GET / 404 in 735ms (next.js: 137ms, application-code: 599ms)
+ GET /trips 404 in 912ms (next.js: 47ms, application-code: 865ms)
+ GET / 404 in 294ms (next.js: 50ms, application-code: 244ms)
+ GET / 404 in 292ms (next.js: 85ms, application-code: 208ms)
+ GET / 404 in 225ms (next.js: 15ms, application-code: 210ms)
+ GET / 404 in 222ms (next.js: 37ms, application-code: 185ms)
+ GET / 404 in 256ms (next.js: 102ms, application-code: 154ms)
+ GET / 404 in 261ms (next.js: 71ms, application-code: 189ms)
+ GET / 404 in 125ms (next.js: 18ms, application-code: 107ms)
+ GET / 404 in 125ms (next.js: 47ms, application-code: 78ms)
+ GET / 404 in 52ms (next.js: 15ms, application-code: 37ms)
+✓ Compiled in 178ms
