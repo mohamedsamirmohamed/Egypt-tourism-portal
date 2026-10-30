@@ -39,8 +39,8 @@ export interface Trip {
   includes: Localized[];
 }
 
-export const WHATSAPP_NUMBER = '201020003235';
-export const WHATSAPP_DISPLAY = '01020003235';
+export const WHATSAPP_NUMBER = '201286372641';
+export const WHATSAPP_DISPLAY = '01286372641';
 
 export function whatsappLink(message: string): string {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
