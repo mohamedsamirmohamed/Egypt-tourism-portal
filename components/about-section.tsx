@@ -16,6 +16,8 @@ const stats = [
 export function AboutSection() {
   const { t } = useLanguage()
   const imgRef = useRef<HTMLDivElement>(null)
+  const statsRef = useRef<HTMLDivElement>(null)
+  const isStatsInView = useInView(statsRef, { once: true, amount: 0.15 })
   const { scrollYProgress } = useScroll({ target: imgRef, offset: ["start end", "end start"] })
   const y = useTransform(scrollYProgress, [0, 1], ["-12%", "12%"])
 
@@ -42,11 +44,11 @@ export function AboutSection() {
             <p className="mt-4 sm:mt-6 text-pretty text-sm sm:text-base leading-relaxed text-muted-foreground">{t("aboutBody")}</p>
           </Reveal>
 
-          <div className="mt-8 sm:mt-12 grid grid-cols-2 gap-4 sm:gap-6 md:gap-8">
+          <div ref={statsRef} className="mt-8 sm:mt-12 grid grid-cols-2 gap-4 sm:gap-6 md:gap-8">
             {stats.map((s, i) => (
               <Reveal key={s.key} delay={0.1 * i}>
                 <div className="min-w-0">
-                  <Counter value={s.value} suffix={s.suffix} />
+                  <Counter value={s.value} suffix={s.suffix} trigger={isStatsInView} />
                   <p className="mt-1 text-xs sm:text-sm font-medium text-muted-foreground leading-snug">{t(s.key)}</p>
                 </div>
               </Reveal>
@@ -58,16 +60,22 @@ export function AboutSection() {
   )
 }
 
-function Counter({ value, suffix }: { value: number; suffix: string }) {
-  const ref = useRef<HTMLSpanElement>(null)
-  const inView = useInView(ref, { once: true, margin: "-60px" })
+function Counter({ value, suffix, trigger }: { value: number; suffix: string; trigger?: boolean }) {
+  const localRef = useRef<HTMLSpanElement>(null)
+  const localInView = useInView(localRef, { once: true, amount: 0.1 })
+  const inView = trigger || localInView
   const [display, setDisplay] = useState(0)
 
   useEffect(() => {
-    if (!inView) return
+    if (!inView) {
+      const timer = setTimeout(() => {
+        setDisplay(value)
+      }, 2000)
+      return () => clearTimeout(timer)
+    }
     let raf = 0
     const start = performance.now()
-    const duration = 1600
+    const duration = 1400
     const tick = (now: number) => {
       const p = Math.min((now - start) / duration, 1)
       const eased = 1 - Math.pow(1 - p, 3)
@@ -80,7 +88,7 @@ function Counter({ value, suffix }: { value: number; suffix: string }) {
 
   return (
     <span
-      ref={ref}
+      ref={localRef}
       dir="ltr"
       className="inline-block font-serif text-3xl sm:text-4xl md:text-5xl font-medium tracking-tight text-primary tabular-nums whitespace-nowrap"
     >
